@@ -35,7 +35,19 @@ void ObjectEnemy::update()
 {
 	if (!m_isExist)	return;
 	m_pos.x -= kSpeed;
-	if (m_pos.x <= -16.0f)
+	if (m_pos.x > Game::kScreenWidth)
+	{
+		m_isExist = false;
+	}
+	if (m_pos.x < -10)
+	{
+		m_isExist = false;
+	}
+	if (m_pos.y > Game::kScreenHeight)
+	{
+		m_isExist = false;
+	}
+	if (m_pos.y < -10)
 	{
 		m_isExist = false;
 	}

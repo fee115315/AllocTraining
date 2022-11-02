@@ -141,6 +141,8 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Object\ObjectEnemy.cpp" />
+    <ClCompile Include="Object\ObjectEnemyDir.cpp" />
+    <ClCompile Include="Object\ObjectEnemyThrow.cpp" />
     <ClCompile Include="Object\ObjectPlayer.cpp" />
     <ClCompile Include="Scene\SceneBase.cpp" />
     <ClCompile Include="Scene\SceneManager.cpp" />
@@ -152,6 +154,8 @@
   <ItemGroup>
     <ClInclude Include="game.h" />
     <ClInclude Include="Object\ObjectEnemy.h" />
+    <ClInclude Include="Object\ObjectEnemyDir.h" />
+    <ClInclude Include="Object\ObjectEnemyThrow.h" />
     <ClInclude Include="Object\ObjectPlayer.h" />
     <ClInclude Include="Scene\SceneBase.h" />
     <ClInclude Include="Scene\SceneManager.h" />
